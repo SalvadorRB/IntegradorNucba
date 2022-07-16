@@ -4,56 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Rise Center </title>
-
+     <title>Rise Center </title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <link rel="stylesheet" href="style.css">
-    <header>
-        <div  class="logo">
-           
-            <img src="logo.png" alt="logo del gimnacio">
-           
-            <h2 class="nombre-empresa">Rise Center</h2>
-        </div>
-    
+    <heaer>
         <nav>
-            
-            <ul> 
-
-            <li>
-                <a href="#" class="nav-link"> Inicio </a>
-            </li>
-            
-            <li>
-                 <a href="#" class="nav-link"> ¿Como Entrenamos? </a>
+            <ul class="menu"> 
+                <li> <a href="#"> <img class="logo" src="./logo.png" alt=" Rise Logo"> </a>   </li>
                
-             </li>
-            
-            <li> 
-                 <a href="#" class="nav-link"> Servicios </a>
-                </li>
-            
-            <li> 
-                <a href="#" class="nav-link"> Contacto </a>
-            </li>
-        </ul>
-        </nav>
-    </header>
-    <div class= "contenedor">
-        <h3>  <p> ¿Porque Rise?</p></h3>
-   <section>
-<p2> Rise es un centro de entrenamiento de fuerza y acondicionamiento fisico,donde buscamos mejorar la calidad de vida de las personas.</p2>
-</section>
-</div>
-<section> <div class= "segundo"><h3> 
-        <p> ¿Como entrenamos?</p>
-     </h3>
- <p2> En general y en pocas palabras, enseñamos patrones básicos de movimiento, que con el correr del tiempo y obteniendo un aprendizaje significativo de dichos patrones lo vamos profundizando en cuanto a la técnica y la carga, segun el objetivo del alumno.</p2>
+                <div class="container-items">
 
-</section>
-    </div>
+                    <li class="item"><a href="#Raise"> Rise</a></li>
+                    <li class="item"><a href="#¿Como entrenamos?">¿Como entrenamos?</a></li>
+                    <li class="item"><a href="#Rutinas">Rutinas</a></li>
+                    <li class="item"><a href="./Contacto.html"> Contacto </a></li>
+                    
+                   
+                </div>
+                
+                <div> <a href="Cartlist"> <i class="fa-solid fa-dumbbell"></i></a> </div>
+
+            </ul>
+        </nav>
+    </heaer>  
+    <main>
+        <section class="Rise__section"  id="Rise" >
+            <div class="Rise__content" > 
+             <img class="RaiseOP-img"  src="./RasieOP.png"    alt="RiseGym"/>
+                <p>Rise es un centro de entrenamiento de fuerza y acondicionamiento fisico, donde buscamos mejorar la calidad de vida de las personas, y tambien el rendimiento deportivo, promoviendo el cuidado de nuestro cuerpo y la importancia del mismo. 
+                </p>
+            
+                    <a class="btn"> ¡ Entrená con nosotros ! </a>
+           
+            </div>
+            <div class="Rise__content--img">  <img src="./RaiseUW.png" alt=" Gym Hero" >  </div>
+
+         </section>
+
+         <!-- Cards   -->
+         <section class="Rutinas__section" id="¿Como entrenamos?">
+    <div class="carts">    
+          <div>
+                 <h2> Enseñamos patrones basicos de movimiento, los cuales con el correr del tiempo perfeccionamos en tecnica y carga. Segun los objetivos del alumno. </h2>
+                
+         </div>
+              <!-- Cards 1  -->
+                    <div class="cart">
+
+                <img class="info-cart" src="./Raise2.png" alt="foto1">
+                <p> <h3> Pedí tu rutina personalizada </h3></p>
+                
+                    </div>
+             <!-- Cards 2   -->
+                          <div class="cart">
+                        <img class="info-cart" src="./Raiseback.png" alt="foto2">
+                        <p> <h3> Disfruta de nuestras instalaciones </h3> </p>
+                         </div>
+            <!-- Cards 3  -->
+                    <div class="cart">  
+                        <img class="info-cart" src="./RaiseMaso.png.jpeg" alt="">
+                         <p> <h3> Entrenamiento personalizado </h3> </p>
+            
+        
+                    </div>
+    </div>                
+        </section>
+    </main>
 </body>
 </html>
