@@ -16,12 +16,13 @@
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
+    list-style: none;
 }
 
 
  body{
    
-    font-family: 'Bebas Neue', cursive; 
+    font-family: 'Bebas Neue'; 
 
 }
 
@@ -57,8 +58,8 @@ nav {
 
 
 .bar-btn {
-    font-size: 30px;
-    color: black;
+    font-size: 37px;
+    color: rgb(7, 7, 7);
     margin-right: 20px;
     cursor: pointer;
 }
@@ -86,20 +87,21 @@ nav {
     font-weight: 600;
 }
 
-.nav-menu li a.active, .nav-menu li a:hover {
-    color: rgb(255, 68, 68);
+.nav-menu li a.active , .nav-menu li a:hover {
+    color: rgb(7,7,7);
     transition: .3s;
 }
 
-#check {
+.check{
     display: none;
 }
 
-#check:checked ~ .nav-menu {
+.check:checked + .nav-menu {
+   
     height: 100vh;
 }
 
-#check:checked ~ .nav-menu li {
+.check:checked + .nav-menu li {
     display: block;
 }
 
@@ -192,11 +194,16 @@ h1{
     justify-content: center;
     margin: 25px;
 }
+.logo-pie {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
 
-
-
-
-@media(max-width: 880px){
+@media screen and (min-width: 768px){
 
         .logo{
             margin-left: 47px;
@@ -207,7 +214,7 @@ h1{
         }
 
         .bar-btn {
-            display: block;
+            display: none;
         }
         
         .nav-menu {
@@ -233,5 +240,15 @@ h1{
          }
 
 
+         .titulo{
+            font-size: 27px;
+            margin-bottom: 27px;
+         }   
 
+         .contenedor-cards {
+            font-size: 27px;
+         }
+         .findepagina{
+            font-size: 27px;
+         }
 }
