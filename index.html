@@ -2,120 +2,306 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Rise Center </title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-     <link rel="stylesheet" href="style.css">
+    <title>Rise Center</title>
+
+    <link rel="stylesheet" href="login.html">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-
 <body>
-   
-    <header>
-<nav>
+    
+<!-- header section starts  -->
 
-               
-           
-                    <div class="logo">
-                        <img src="./imagen/LogoR.png" alt="Logo">
-                     </div> 
-          
-                    <imput type="checkbox"  id="check">
-                    
-                    
-                    <label for="check"  class="bar-btn">
-                         
-                        <i class="fa-solid fa-bars"></i> 
-                        
-                    </label>
-            
-                <ul class="nav-menu">
-                
-                    <li > <a  class="active" href="#Home"> Home </a> </li>
-                
-                    <li> <a  class="active"href="#Como entrenamos">Como entrenamos </a> </li>
-                    
-                    <li><a class="active" href="#Contacto"> Contacto </a> </li>
-                             
-                </ul>
+<header>
+
+<a href="#" class="logo"><span>RI</span>SE</a>
+
+<div id="menu" class="fas fa-bars"></div>
+
+<nav class="navbar">
+    <ul>
+        <li><a class="active" href="#home">home</a></li>
+        <li><a href="./login.html">Iniciar Sesion</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#Servicios">Servicios</a></li>
+        <li><a href="#Profes">Profes</a></li>
+        <li><a href="#Rutinas">Rutinas</a></li>
+        <li><a href="#register">register</a></li>
+    </ul>
 </nav>
-              
-      
 
-    <div  id="Home" class="titulo">
-        <h1> Trust you power </h1>    
-        <a href=""> Entrena con nosotros </a>
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+<h1>Centro de entrenamiento de fuerza <br> y acondicionamiento </h1>
+
+<a href="#"><button class="btn">Trust you power</button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section start  -->
+
+<section class="about" id="about">
+
+<div class="row">
+
+    <div class="image">
+        <img src="./imagen/rise2.jpg.jpeg" alt="">
     </div>
 
-</header> 
-<main>
-       <!--  Cards -->
-      <!--  card 1 -->
-    <section id="Como entrenamos">
-   <div class="contenedor">
-            <div class="contenedor-cards">
-               
-                <div class="card">
-                <img src="./imagen/logo1-removebg-preview.png">
-                <h3>Patrones basicos de movimiento </h3>
-                <p>Con el transcurso de las clases el alumno profundizara en la tecnica y la carga</p>
-                <a href="">Pedi tu rutina</a>
+    <div class="content">
+        <h3>Nuestro Centro</h3>
+        <p>Queremos ser un centro de alta calidad, basado en la ciencia, en la practica y en la experiencia entregando las mejores condiciones posibles para entrenar</p>
+        <p>promoviendo el cuidado de nuestro cuerpo y la importancia del mismo</p>
+        <a href="#"><button class="btn">Aprende más</button></a>
+    </div>
 
-               </div> 
-               <!--  card 2 -->
-               <div id="segunda-card" class="card">
-                <img src="./imagen/logo2-removebg-preview.png">
-                <h3>Calidad de vida </h3>
-                <p>Promovemos el cuidado de nuestro cuerpo y la importancia que el mismo tiene para una calidad de vida mejor</p>
-                <a href="">Date la oportunidad</a>
+</div>
 
-               </div> 
-               <!--  card 3 -->
+</section>
 
-               <div id="ultima-card"class="card">
-                <img src="./imagen/logo5-removebg-preview.png">
-                <h3>Objetivos Claros</h3>
-                <p>Queremos ser un centro de entrenamiento de alta calidad, otorgando las mejores condiciones practicas y tecnicas para nuestros alumnos</p>
-                <a href="">Unite a Rise</a>
+<!-- about section ends -->
 
-               </div> 
+<!-- service section starts  -->
 
-            </div>
-            
-            
+<section class="service" id="Servicios">
+
+<h1 class="heading">Servicios de Rise</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="./imagen/galeria1.jpg" alt="">
+        <div class="info">
+            <h3>Entrenamieno de Fuerza</h3>
+            <p>Rise es un centro de acondisionamiento y entrenamiento de fuerza fisico, donde buscamos mejorar la calidad de vida de las personas. </p>
+            <a href="#"><button class="btn">Sumate!</button></a>
         </div>
-       
-            
+    </div>
 
-
-    </section>
-
-    <section id="Contacto">
-        <div class="contenedor">
-            <h2> Contacto </h2>
-            <div class="info">
-                <p> <i class="fa-brands fa-whatsapp" > +5492357402102 </i></p>
-                <p> <i class="fa-brands fa-instagram"> risefuerza</i> </p>
-            </div>
-            <a href="Contacto"></a>
+    <div class="box">
+        <img src="./imagen/galeria2.jpg" alt="">
+        <div class="info">
+            <h3>Objetivo</h3>
+            <p>Queremos cambiar el pensamiento de que un centro de entrenamiento solo para fines esteticos.</p>
+            <a href="#"><button class="btn">mas</button></a>
         </div>
+    </div>
 
-    </section>
+    <div class="box">
+        <img src="./imagen/galeria3.jpg" alt="">
+        <div class="info">
+            <h3>Entrenadores</h3>
+            <p>Nuestro equipo estará siempre guiandote en tus entrenamientos.</p>
+            <a href="#"><button class="btn">mas</button></a>
+        </div>
+    </div>
 
-  
+    <div class="box">
+        <img src="./imagen/encabezado2.jpeg" alt="">
+        <div class="info">
+            <h3>Sumate a Rise </h3>
+            <p>Tomamos estudiantes que quieran hacer sus primeras practicas profesionales en nuestro centro.</p>
+            <a href="#"><button class="btn">mas</button></a>
+        </div>
+    </div>
 
-</main>
+    <div class="box">
+        <img src="./imagen/galeria4.jpg" alt="">
+        <div class="info">
+            <h3>Calidad de Vida</h3>
+            <p>Debemos entrenar para mejorar nuestra calidad de vida y no por fines puramente esteticos.</p>
+            <a href="#"><button class="btn">mas</button></a>
+        </div>
+    </div>
 
-    <footer >
+    <div class="box">
+        <img src="./imagen/galeria6.jpg" alt="">
+        <div class="info">
+            <h3>Para Todos</h3>
+            <p>Todo aquel que esté dispuesto a aprender y comprenda que el entrenamiento es un proceso a largo plazo, puede asisitir sin importar la edad.</p>
+            <a href="#"><button class="btn">mas</button></a>
+        </div>
+    </div>
 
-        <div class="logo-pie"> <img src="./imagen/srB__3.png" alt="srb"> </div>
-       
-        <div class="findepagina"> <h3> @Derechos Reservados // SRB Software Solutions 2010-2022 </h3> </div>
+</div>
 
-    </footer>
+</section>
+
+<!-- service section ends -->
+
+<!-- profes section starts  -->
+
+<section class="trainer" id="Profes">
+
+<h1 class="heading">Nuestro Staff</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="./imagen/fran.jpg" alt="FG">
+        <div class="info">
+            <h3>Francisco Garcia</h3>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="imagen/caye.jpg" alt="Caye">
+        <div class="info">
+            <h3>Caye Perez</h3>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="./imagen/Gonzalo.jpg" alt="Gonzalo">
+        <div class="info">
+            <h3>Gonzalo Molinari</h3>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+
+    
+    
+
+</div>
+
+</section>
+
+<!-- profes section fin -->
+
+<!-- plan section starts  -->
+
+<section class="plan" id="Rutinas">
+
+<h1 class="heading">Rutinas Personalizadas</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <h3 class="title">Dos Veces Por Semana</h3>
+        <h3 class="price">$1200<span>/mes</span></h3>
+        
+        <ul>
+            <li><i class="fas fa-check"></i>Rutina</li>
+            <li><i class="fas fa-check"></i>Seguimiento</li>
+            <li><i class="fas fa-check"></i>Instalaciones</li>
+            <li><i class="fas fa-check"></i>Horario General</li>
+        </ul>
+        <a href="#"><button class="btn">Consultanos</button></a>
+    </div>
+
+    <div class="box">
+        <h3 class="title">Tres Veces Por Semana</h3>
+        <h3 class="price">$2000<span>/mes</span></h3>
+        
+        <ul>
+            <li><i class="fas fa-check"></i>Rutina Personalizada </li>
+            <li><i class="fas fa-check"></i>Seguimiento</li>
+            <li><i class="fas fa-check"></i>Deporte Espesifico</li>
+            <li><i class="fas fa-check"></i>Instalaciones</li>
+            <li><i class="fas fa-check"></i>Horario Reservado</li>
+        </ul>
+        <a href="#"><button class="btn">Consultanos</button></a>
+    </div>
+
+    <div class="box">
+        <h3 class="title">Cuatro Veces Por Semana</h3>
+        <h3 class="price">$3000<span>/mes</span></h3>
+        
+        <ul>
+            <li><i class="fas fa-check"></i>Rutina Personalizada </li>
+            <li><i class="fas fa-check"></i>Seguimiento</li>
+            <li><i class="fas fa-check"></i>Deporte Espesifico</li>
+            <li><i class="fas fa-check"></i>Instalaciones</li>
+            <li><i class="fas fa-check"></i>Horario Reservado</li>
+            <li><i class="fas fa-check"></i>Doble Turno</li>
+            <li><i class="fas fa-check"></i>Rutinas Digitalizadas</li>
+        </ul>
+        <a href="#"><button class="btn">Consultanos</button></a>
+    </div>
+
+</div>
+
+</section>
+
+<!-- plan section fin -->
+
+<!-- register section starts  -->
+
+<section class="register" id="register">
+
+<h1 class="heading">Registrate Ahora</h1>
+
+<form action="">
+
+    <div class="inputBox">
+        <input type="text" placeholder="nombre">
+        <input type="text" placeholder="apellido">
+    </div>
+
+    <div class="inputBox">
+        <input type="email" placeholder="tu email">
+        <input type="number" placeholder="tu numero">
+    </div>
+
+    <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+
+    <input type="submit" class="btn" value="registrate">
+
+</form>
+
+</section>
+
+<!-- register section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+    creado por <a href="#">S.R.B</a> | &copy; all rights reserved.
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
-
-
-
